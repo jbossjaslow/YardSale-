@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3905FC201DE788C500383225 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905FC1F1DE788C500383225 /* Item.swift */; };
+		391C34581E40346E00AAF951 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C34571E40346E00AAF951 /* SettingsViewController.swift */; };
+		391D01C61DDCD041005E45F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D01C51DDCD041005E45F1 /* AppDelegate.swift */; };
+		391D01CB1DDCD041005E45F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391D01C91DDCD041005E45F1 /* Main.storyboard */; };
+		391D01CE1DDCD041005E45F1 /* YardSale_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 391D01CC1DDCD041005E45F1 /* YardSale_.xcdatamodeld */; };
+		391D01D01DDCD041005E45F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391D01CF1DDCD041005E45F1 /* Assets.xcassets */; };
+		391D01D31DDCD041005E45F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391D01D11DDCD041005E45F1 /* LaunchScreen.storyboard */; };
+		391D01DE1DDCD041005E45F1 /* YardSale_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D01DD1DDCD041005E45F1 /* YardSale_Tests.swift */; };
+		391D01E91DDCD041005E45F1 /* YardSale_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D01E81DDCD041005E45F1 /* YardSale_UITests.swift */; };
+		3922430B1DF1E26400B5C6E2 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922430A1DF1E26400B5C6E2 /* RatingControl.swift */; };
+		392C040C1DEB6A4300CEE858 /* itemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392C040B1DEB6A4300CEE858 /* itemTableViewCell.swift */; };
+		392C040E1DEB6EC800CEE858 /* itemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392C040D1DEB6EC800CEE858 /* itemTableViewController.swift */; };
+		392C04101DEB836D00CEE858 /* DonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392C040F1DEB836D00CEE858 /* DonationViewController.swift */; };
+		3931FF341DF38ABE00192918 /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931FF331DF38ABE00192918 /* ManageViewController.swift */; };
+		3931FF361DF38D5500192918 /* SellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931FF351DF38D5500192918 /* SellViewController.swift */; };
+		398BBE8B1E5B8315004630A0 /* Onboarding_3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BBE8A1E5B8315004630A0 /* Onboarding_3ViewController.swift */; };
+		398BBE8D1E5B8324004630A0 /* Onboarding_4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BBE8C1E5B8323004630A0 /* Onboarding_4ViewController.swift */; };
+		39C92F3C1E3EC0FC003DEEC8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C92F3B1E3EC0FC003DEEC8 /* Data.swift */; };
+		39D3D1711E50C16D007F6F8C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3D1701E50C16D007F6F8C /* OnboardingViewController.swift */; };
+		39E954211E576D6000085FBC /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E954201E576D6000085FBC /* RootPageViewController.swift */; };
+		39E9542C1E577B1F00085FBC /* Onboarding_5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E9542B1E577B1F00085FBC /* Onboarding_5ViewController.swift */; };
+		39E9542E1E577C7C00085FBC /* Onboarding_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E9542D1E577C7C00085FBC /* Onboarding_2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		391D01DA1DDCD041005E45F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391D01BA1DDCD041005E45F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391D01C11DDCD041005E45F1;
+			remoteInfo = YardSale$;
+		};
+		391D01E51DDCD041005E45F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391D01BA1DDCD041005E45F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391D01C11DDCD041005E45F1;
+			remoteInfo = YardSale$;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3905FC1F1DE788C500383225 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		391C34571E40346E00AAF951 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		391D01C21DDCD041005E45F1 /* YardSale$.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YardSale$.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		391D01C51DDCD041005E45F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		391D01CA1DDCD041005E45F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		391D01CD1DDCD041005E45F1 /* YardSale_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YardSale_.xcdatamodel; sourceTree = "<group>"; };
+		391D01CF1DDCD041005E45F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		391D01D21DDCD041005E45F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		391D01D41DDCD041005E45F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391D01D91DDCD041005E45F1 /* YardSale$Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YardSale$Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		391D01DD1DDCD041005E45F1 /* YardSale_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardSale_Tests.swift; sourceTree = "<group>"; };
+		391D01DF1DDCD041005E45F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391D01E41DDCD041005E45F1 /* YardSale$UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YardSale$UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		391D01E81DDCD041005E45F1 /* YardSale_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardSale_UITests.swift; sourceTree = "<group>"; };
+		391D01EA1DDCD041005E45F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3922430A1DF1E26400B5C6E2 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		392C040B1DEB6A4300CEE858 /* itemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemTableViewCell.swift; sourceTree = "<group>"; };
+		392C040D1DEB6EC800CEE858 /* itemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemTableViewController.swift; sourceTree = "<group>"; };
+		392C040F1DEB836D00CEE858 /* DonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationViewController.swift; sourceTree = "<group>"; };
+		3931FF331DF38ABE00192918 /* ManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
+		3931FF351DF38D5500192918 /* SellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellViewController.swift; sourceTree = "<group>"; };
+		398BBE8A1E5B8315004630A0 /* Onboarding_3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding_3ViewController.swift; sourceTree = "<group>"; };
+		398BBE8C1E5B8323004630A0 /* Onboarding_4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding_4ViewController.swift; sourceTree = "<group>"; };
+		39C92F3B1E3EC0FC003DEEC8 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		39D3D1701E50C16D007F6F8C /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		39E954201E576D6000085FBC /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		39E9542B1E577B1F00085FBC /* Onboarding_5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding_5ViewController.swift; sourceTree = "<group>"; };
+		39E9542D1E577C7C00085FBC /* Onboarding_2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding_2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		391D01BF1DDCD041005E45F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391D01D61DDCD041005E45F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391D01E11DDCD041005E45F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		391D01B91DDCD041005E45F1 = {
+			isa = PBXGroup;
+			children = (
+				391D01C41DDCD041005E45F1 /* YardSale$ */,
+				391D01DC1DDCD041005E45F1 /* YardSale$Tests */,
+				391D01E71DDCD041005E45F1 /* YardSale$UITests */,
+				391D01C31DDCD041005E45F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		391D01C31DDCD041005E45F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				391D01C21DDCD041005E45F1 /* YardSale$.app */,
+				391D01D91DDCD041005E45F1 /* YardSale$Tests.xctest */,
+				391D01E41DDCD041005E45F1 /* YardSale$UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391D01C41DDCD041005E45F1 /* YardSale$ */ = {
+			isa = PBXGroup;
+			children = (
+				39E954241E57740800085FBC /* Item List and Donation */,
+				39E954251E57743700085FBC /* Data and Rating */,
+				39E954261E57748D00085FBC /* Manage, Settings, and Sell */,
+				39E954231E5773E700085FBC /* Onboarding */,
+				391D01C91DDCD041005E45F1 /* Main.storyboard */,
+				391D01D11DDCD041005E45F1 /* LaunchScreen.storyboard */,
+				391D01C51DDCD041005E45F1 /* AppDelegate.swift */,
+				391D01CF1DDCD041005E45F1 /* Assets.xcassets */,
+				391D01D41DDCD041005E45F1 /* Info.plist */,
+				391D01CC1DDCD041005E45F1 /* YardSale_.xcdatamodeld */,
+			);
+			path = YardSale$;
+			sourceTree = "<group>";
+		};
+		391D01DC1DDCD041005E45F1 /* YardSale$Tests */ = {
+			isa = PBXGroup;
+			children = (
+				391D01DD1DDCD041005E45F1 /* YardSale_Tests.swift */,
+				391D01DF1DDCD041005E45F1 /* Info.plist */,
+			);
+			path = YardSale$Tests;
+			sourceTree = "<group>";
+		};
+		391D01E71DDCD041005E45F1 /* YardSale$UITests */ = {
+			isa = PBXGroup;
+			children = (
+				391D01E81DDCD041005E45F1 /* YardSale_UITests.swift */,
+				391D01EA1DDCD041005E45F1 /* Info.plist */,
+			);
+			path = YardSale$UITests;
+			sourceTree = "<group>";
+		};
+		39E954231E5773E700085FBC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				39E954201E576D6000085FBC /* RootPageViewController.swift */,
+				39E9542D1E577C7C00085FBC /* Onboarding_2ViewController.swift */,
+				398BBE8A1E5B8315004630A0 /* Onboarding_3ViewController.swift */,
+				398BBE8C1E5B8323004630A0 /* Onboarding_4ViewController.swift */,
+				39E9542B1E577B1F00085FBC /* Onboarding_5ViewController.swift */,
+				39D3D1701E50C16D007F6F8C /* OnboardingViewController.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		39E954241E57740800085FBC /* Item List and Donation */ = {
+			isa = PBXGroup;
+			children = (
+				3905FC1F1DE788C500383225 /* Item.swift */,
+				392C040F1DEB836D00CEE858 /* DonationViewController.swift */,
+				392C040B1DEB6A4300CEE858 /* itemTableViewCell.swift */,
+				392C040D1DEB6EC800CEE858 /* itemTableViewController.swift */,
+			);
+			name = "Item List and Donation";
+			sourceTree = "<group>";
+		};
+		39E954251E57743700085FBC /* Data and Rating */ = {
+			isa = PBXGroup;
+			children = (
+				3922430A1DF1E26400B5C6E2 /* RatingControl.swift */,
+				39C92F3B1E3EC0FC003DEEC8 /* Data.swift */,
+			);
+			name = "Data and Rating";
+			sourceTree = "<group>";
+		};
+		39E954261E57748D00085FBC /* Manage, Settings, and Sell */ = {
+			isa = PBXGroup;
+			children = (
+				3931FF331DF38ABE00192918 /* ManageViewController.swift */,
+				3931FF351DF38D5500192918 /* SellViewController.swift */,
+				391C34571E40346E00AAF951 /* SettingsViewController.swift */,
+			);
+			name = "Manage, Settings, and Sell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		391D01C11DDCD041005E45F1 /* YardSale$ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391D01ED1DDCD041005E45F1 /* Build configuration list for PBXNativeTarget "YardSale$" */;
+			buildPhases = (
+				391D01BE1DDCD041005E45F1 /* Sources */,
+				391D01BF1DDCD041005E45F1 /* Frameworks */,
+				391D01C01DDCD041005E45F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YardSale$;
+			productName = YardSale$;
+			productReference = 391D01C21DDCD041005E45F1 /* YardSale$.app */;
+			productType = "com.apple.product-type.application";
+		};
+		391D01D81DDCD041005E45F1 /* YardSale$Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391D01F01DDCD041005E45F1 /* Build configuration list for PBXNativeTarget "YardSale$Tests" */;
+			buildPhases = (
+				391D01D51DDCD041005E45F1 /* Sources */,
+				391D01D61DDCD041005E45F1 /* Frameworks */,
+				391D01D71DDCD041005E45F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391D01DB1DDCD041005E45F1 /* PBXTargetDependency */,
+			);
+			name = YardSale$Tests;
+			productName = YardSale$Tests;
+			productReference = 391D01D91DDCD041005E45F1 /* YardSale$Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		391D01E31DDCD041005E45F1 /* YardSale$UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391D01F31DDCD041005E45F1 /* Build configuration list for PBXNativeTarget "YardSale$UITests" */;
+			buildPhases = (
+				391D01E01DDCD041005E45F1 /* Sources */,
+				391D01E11DDCD041005E45F1 /* Frameworks */,
+				391D01E21DDCD041005E45F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391D01E61DDCD041005E45F1 /* PBXTargetDependency */,
+			);
+			name = YardSale$UITests;
+			productName = YardSale$UITests;
+			productReference = 391D01E41DDCD041005E45F1 /* YardSale$UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		391D01BA1DDCD041005E45F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Josh Jaslow";
+				TargetAttributes = {
+					391D01C11DDCD041005E45F1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E5AAHWL9DL;
+						ProvisioningStyle = Automatic;
+					};
+					391D01D81DDCD041005E45F1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 391D01C11DDCD041005E45F1;
+					};
+					391D01E31DDCD041005E45F1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 391D01C11DDCD041005E45F1;
+					};
+				};
+			};
+			buildConfigurationList = 391D01BD1DDCD041005E45F1 /* Build configuration list for PBXProject "YardSale$" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 391D01B91DDCD041005E45F1;
+			productRefGroup = 391D01C31DDCD041005E45F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				391D01C11DDCD041005E45F1 /* YardSale$ */,
+				391D01D81DDCD041005E45F1 /* YardSale$Tests */,
+				391D01E31DDCD041005E45F1 /* YardSale$UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		391D01C01DDCD041005E45F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391D01D31DDCD041005E45F1 /* LaunchScreen.storyboard in Resources */,
+				391D01D01DDCD041005E45F1 /* Assets.xcassets in Resources */,
+				391D01CB1DDCD041005E45F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391D01D71DDCD041005E45F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391D01E21DDCD041005E45F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		391D01BE1DDCD041005E45F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392C04101DEB836D00CEE858 /* DonationViewController.swift in Sources */,
+				39C92F3C1E3EC0FC003DEEC8 /* Data.swift in Sources */,
+				391C34581E40346E00AAF951 /* SettingsViewController.swift in Sources */,
+				3931FF361DF38D5500192918 /* SellViewController.swift in Sources */,
+				39E9542E1E577C7C00085FBC /* Onboarding_2ViewController.swift in Sources */,
+				3922430B1DF1E26400B5C6E2 /* RatingControl.swift in Sources */,
+				3905FC201DE788C500383225 /* Item.swift in Sources */,
+				3931FF341DF38ABE00192918 /* ManageViewController.swift in Sources */,
+				39D3D1711E50C16D007F6F8C /* OnboardingViewController.swift in Sources */,
+				391D01CE1DDCD041005E45F1 /* YardSale_.xcdatamodeld in Sources */,
+				392C040C1DEB6A4300CEE858 /* itemTableViewCell.swift in Sources */,
+				39E9542C1E577B1F00085FBC /* Onboarding_5ViewController.swift in Sources */,
+				391D01C61DDCD041005E45F1 /* AppDelegate.swift in Sources */,
+				39E954211E576D6000085FBC /* RootPageViewController.swift in Sources */,
+				398BBE8D1E5B8324004630A0 /* Onboarding_4ViewController.swift in Sources */,
+				398BBE8B1E5B8315004630A0 /* Onboarding_3ViewController.swift in Sources */,
+				392C040E1DEB6EC800CEE858 /* itemTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391D01D51DDCD041005E45F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391D01DE1DDCD041005E45F1 /* YardSale_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391D01E01DDCD041005E45F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391D01E91DDCD041005E45F1 /* YardSale_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		391D01DB1DDCD041005E45F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391D01C11DDCD041005E45F1 /* YardSale$ */;
+			targetProxy = 391D01DA1DDCD041005E45F1 /* PBXContainerItemProxy */;
+		};
+		391D01E61DDCD041005E45F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391D01C11DDCD041005E45F1 /* YardSale$ */;
+			targetProxy = 391D01E51DDCD041005E45F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		391D01C91DDCD041005E45F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391D01CA1DDCD041005E45F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		391D01D11DDCD041005E45F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391D01D21DDCD041005E45F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		391D01EB1DDCD041005E45F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		391D01EC1DDCD041005E45F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		391D01EE1DDCD041005E45F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5AAHWL9DL;
+				INFOPLIST_FILE = YardSale$/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.YardSale-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		391D01EF1DDCD041005E45F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5AAHWL9DL;
+				INFOPLIST_FILE = YardSale$/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.YardSale-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		391D01F11DDCD041005E45F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YardSale$Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.YardSale-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YardSale$.app/YardSale$";
+			};
+			name = Debug;
+		};
+		391D01F21DDCD041005E45F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YardSale$Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.YardSale-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YardSale$.app/YardSale$";
+			};
+			name = Release;
+		};
+		391D01F41DDCD041005E45F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YardSale$UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.YardSale-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YardSale$;
+			};
+			name = Debug;
+		};
+		391D01F51DDCD041005E45F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YardSale$UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.YardSale-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YardSale$;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		391D01BD1DDCD041005E45F1 /* Build configuration list for PBXProject "YardSale$" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391D01EB1DDCD041005E45F1 /* Debug */,
+				391D01EC1DDCD041005E45F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391D01ED1DDCD041005E45F1 /* Build configuration list for PBXNativeTarget "YardSale$" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391D01EE1DDCD041005E45F1 /* Debug */,
+				391D01EF1DDCD041005E45F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391D01F01DDCD041005E45F1 /* Build configuration list for PBXNativeTarget "YardSale$Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391D01F11DDCD041005E45F1 /* Debug */,
+				391D01F21DDCD041005E45F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391D01F31DDCD041005E45F1 /* Build configuration list for PBXNativeTarget "YardSale$UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391D01F41DDCD041005E45F1 /* Debug */,
+				391D01F51DDCD041005E45F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		391D01CC1DDCD041005E45F1 /* YardSale_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				391D01CD1DDCD041005E45F1 /* YardSale_.xcdatamodel */,
+			);
+			currentVersion = 391D01CD1DDCD041005E45F1 /* YardSale_.xcdatamodel */;
+			path = YardSale_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 391D01BA1DDCD041005E45F1 /* Project object */;
+}
